@@ -1,3 +1,4 @@
+
 .title-container {
     text-align: center;
     width: 510px;
@@ -71,6 +72,7 @@
 .keyboard-container {
     width: 100%;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -112,4 +114,10 @@
 .curioso{
     height: 20px;
     font-size: 5px;
+}
+
+.generic-titles{
+    font-style: oblique;
+    font-size: 60px;
+
 }

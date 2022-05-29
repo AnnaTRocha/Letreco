@@ -1,5 +1,6 @@
 const tiles = document.querySelector(".tile-container") //. é pelo nome da classe
 const backspaceAndEnterRow = document.querySelector("#backspaceAndEnterRow") //# é direto pelo id
+const preferencesOptions = document.querySelector("#preferencesOptions") //# é direto pelo id
 const keybordFirstRow = document.querySelector("#keybordFirstRow")
 const keybordSecondRow = document.querySelector("#keybordSecondRow")
 const keybordThirdRow = document.querySelector("#keybordThirdRow")
@@ -58,3 +59,8 @@ const enterButton = document.createElement("button")
 enterButton.addEventListener("click", handleEnter)
 enterButton.textContent = "ENTER"
 backspaceAndEnterRow.append(enterButton)
+
+const preferences = document.createElement("button")
+preferences.addEventListener("click", handleEnter)
+preferences.textContent = "Preferencias"
+backspaceAndEnterRow.append(preferences)
